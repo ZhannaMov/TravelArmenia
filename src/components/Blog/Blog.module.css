@@ -1,0 +1,42 @@
+.blogCont{
+    width:100%;
+    height: 1500px;
+    border: 1px solid red;
+    display: grid;
+    grid-gap: 4px 4px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+}
+
+.blogCard{
+    width: 440px;
+    height: 350px;
+    /* border: 1px solid black; */
+    overflow: hidden;
+   position: relative;
+   border-radius: 5px;
+}
+
+.blogCard:hover{
+    box-shadow: 0 0 0 2px rgba(0,0,0,0.1);
+}
+.blogImgWrapper{
+ max-height: 280px;
+    overflow: hidden;
+width: 100%;
+ /* border: 1px solid black; */
+}
+.blogPic{
+    height: 350px;
+    width: 100%;
+}
+.blogName{
+    height: 70px;
+    width: 100%;
+    /* border: 1px solid red; */
+    position: absolute;
+    bottom: 0;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}

@@ -1,0 +1,108 @@
+.container{
+    width: 100%;
+    height: auto;
+    overflow: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tourImg{
+   /*border: 1px solid gray;*/
+    width: 500px;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.4);
+    border-radius: 5px;
+}
+
+h1{
+    color: #616A6B ;
+    font-weight: 500;
+}
+p{
+    font-size: 20px;
+    color: #616A6B;
+    margin: 10px;
+}
+.tourDescrip{
+    border: 1px solid #c9c0c0;
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+}
+.nameAndInfo{
+    height: 100%;
+    width: 70%;
+    /*border: 1px solid blue;*/
+    gap: 30px;
+}
+.tourName{
+    font-size: 32px;
+}
+.upcomingTime,.departure,.price  {
+    width: 80%;
+    height: 45px;
+    border: 1px solid #E4E6E7;
+    border-radius: 2px;
+    box-shadow: 0 0 4px rgba(0,0,0,0.4);
+    padding: 3px;
+    font-size: 16px;
+    display: flex;
+    gap: 7px;
+}
+/*.departure {*/
+/*    width: 80%;*/
+/*    height: 45px;*/
+/*    border: 1px solid black;*/
+/*}*/
+
+.serviceInfo{
+    width: 80%;
+    height: 200px;
+    border: 1px black solid;
+    padding: 10px;
+}
+.includes{
+   width: 100%;
+    height: 30px;
+    border: 1px solid #E4E6E7;
+    border-radius: 2px;
+    box-shadow: 0 0 4px rgba(0,0,0,0.4);
+    padding: 5px;
+    display: flex;
+    font-size: 18px;
+
+}
+
+.transportInfo{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #E4E6E7;
+    border-radius: 2px;
+    box-shadow: 0 0 4px rgba(0,0,0,0.4);
+    padding: 5px;
+    display: flex;
+
+}
+
+.guideInfo{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #E4E6E7;
+    border-radius: 2px;
+    box-shadow: 0 0 4px rgba(0,0,0,0.4);
+    padding: 5px;
+    display: flex;
+
+}
+
+.bookingCont {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    position: relative;
+    padding-left: 200px;
+}

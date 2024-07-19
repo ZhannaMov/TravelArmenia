@@ -1,0 +1,102 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;*/
+    padding: 10px;
+ position: relative;
+max-height: 200px;
+  }
+
+.addresAndFlags{
+    display: flex;
+    margin-right: 25px;
+    align-items: center;
+}
+  
+  .phoneNumbers {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    margin-left: 100px; 
+    font-size: 20px;
+    font-weight: 600;
+    color: #333333;
+  }
+  
+  .phoneNumbers p {
+    margin: 5px 0; 
+  }
+ /*.logo {*/
+ /*   flex-grow: 1; */
+ /*   display: flex;*/
+ /*   justify-content: center;*/
+ /* } */
+  .logo img {
+    width: 200px;
+    height: 75px;
+    border-radius: 10%; 
+  }
+  
+  .address{
+    margin-right: 100px; 
+    font-size: 20px;
+    font-weight: 600;
+    color: #333333;
+  }
+ 
+  .userIcon, .iconFav{
+     width: 60px;
+     height: 50px;
+     border-radius: 50%;
+     background-color: white;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 32px;
+     color: gray;
+  }
+  
+  .usersFirst{
+    width: 60px;
+     height: 50px;
+     border-radius: 50%;
+     background-color: #7FB3D5 ; 
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 32px;
+     color: white;
+  }
+
+.flagsCont{
+    display: flex;
+
+}
+
+.flagItem{
+    height: 25px;
+}
+
+.languages{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100px;
+    height: 40px;
+    /*border: 1px solid blue;*/
+    flex-direction: row;
+}
+
+
+  
+ 
+  @media all and (max-width:600px){
+     .phoneNumbers{
+      display: none;
+     }
+     .address{
+      display: none;
+     }
+ 
+  }

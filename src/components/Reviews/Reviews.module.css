@@ -1,0 +1,109 @@
+.reviewsCont{
+    width:100%;
+    height: 1900px;
+    /*border: 1px solid red;*/
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+}
+
+.reviewImgCont{
+    width: 100%;
+    height: 450px;
+    background-image: url(../../images/lori.jpg);
+    background-size: cover;
+    background-position-y: 30% ;
+    border: 1px solid black;
+    
+}
+
+
+.revH{
+    color: white;
+    text-shadow: rgba(0,0,0,0.4);
+    font-size: 350%;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 6px #ddd;
+}
+
+.revCover{
+    background-color: rgba(54, 53, 53, 0.29);
+    height: 450px;
+    width: 100%;
+    padding: 40px;
+}
+.userRevCont{
+    width: 100%;
+    height: 1800px;
+    /*border: 1px solid blueviolet;*/
+    /* display: flex;
+    flex-wrap: wrap;
+    align-items: center; */
+    display: grid;
+    grid-gap: 10px 10px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    padding-left: 50px;
+}
+.revCard{
+    width: 400px;
+    height: 400px;
+   
+    box-shadow: 0 0 1rem rgba(0,0,0,.15)!important;
+    background-color: #fff !important;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.revName{
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.stars{
+    display: flex;
+    font-size: 32px;
+    color: #E7D312;
+
+}
+
+.previous, .next {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid green;
+}
+.active {
+    background: green;
+    color: white;
+}
+.pagContainer{
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    left: 45%;
+}
+.pages li, .page, .break {
+    margin: 0 3px;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid green;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page:hover{
+    background-color: green;
+}

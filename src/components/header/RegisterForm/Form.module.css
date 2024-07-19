@@ -1,0 +1,61 @@
+.formCard{
+    position: absolute;
+    top: 73px;
+    right: 2px;
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    z-index: 100;
+    border-radius: 5px;
+    box-shadow: 0 0 4px rgba(0,0,0,0.4);
+   
+}
+.formCard h2{
+    color: #767C7C;
+    margin-left: 16px;
+}
+.btns{
+   height: 20vh;
+   /* background-color: blanchedalmond; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    bottom: 20px;
+}
+.btns a{
+    box-shadow: 0 0 4px rgba(0,0,0,0.4);
+    width: 80%;
+    height: 30px;
+    border-radius:2px;
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  
+}
+.formbtn1{
+    color: white;
+    background-color: #7FB3D5;
+    border: none;
+}
+.formbtn2{
+    background-color: white;
+    border: 1px solid #7FB3D5 ;
+   color: #7FB3D5;
+ 
+}
+.formbtn1:hover{
+    box-shadow: 0 0 4px rgba(0,0,0,0.4);
+}
+.formbtn2:hover{
+    color: white;
+    background-color: #7FB3D5 ;
+}
+.custom-link {
+    color: inherit;
+    text-decoration: none;
+  }
+  

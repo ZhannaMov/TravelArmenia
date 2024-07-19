@@ -1,0 +1,92 @@
+.booking{
+    width: 80%;
+    border: 1px black solid;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Noto Sans Armenian', sans-serif;
+    color: #6c757d;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #EAEDED ;
+    border-radius: 5px;
+    height: 600px;
+    padding: 20px;
+}
+
+.head{
+    text-align: center;
+    margin: 40px;
+}
+
+/* .column {
+    flex: 1;
+} */
+
+.note {
+    flex-basis: 100%;
+    margin-top: 5px;
+    border-color: gray;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.bookingInputs{
+    width: 400px;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+    margin: 10px;
+
+}
+
+.book {
+    width: 100px;
+
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #616A6B;
+    border-style: none;
+    color: white;
+    font-size: 17px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+    overflow: hidden;
+}
+.book:hover{
+    opacity: 0.9;
+}
+
+.bookH{
+    display: block;
+    width: 100%;
+    font-size: 32px;
+    font-weight: 700;
+}
+.noteInput{
+    width: 82%;
+    height: 55px;
+    border: 1px solid gray;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+    margin: 10px;
+    border-radius: 3px;
+}
+.column label{
+    font-weight: 600;
+}
+.note label{
+    font-weight: 600;
+}
+.bookError{
+    color: #dc3545;
+    font-size: 0.8rem;
+    display: block;
+    margin-left: 5px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}

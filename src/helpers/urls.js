@@ -1,0 +1,26 @@
+export const HOME_URL = '/'
+export const UPCOMINGTOURS_URL ='/UpcomingTours'
+export const FESTIVALS_URL ='/Festivals'
+export const ABOUT_URL ='/About'
+export const CONTACT_URL ='/Contact'
+export const BLOG_URL ='/Blog'
+export const REVIEWS_URL ='/Reviews'
+export const HIKING_URL = '/Hiking'
+export  const MOUNTAIN_URL='/Mountain'
+export const PRIVATE_URL ='/EcoTours'
+export const OFFROADTOURS_URL='/OffRoadTours'
+export const CASTLES_URL = '/Castles'
+export const EXCLUSIVE_URL='/Exclusive'
+export const TOUR_URL=':id'
+export const LOG_IN = '/Login'
+export const SEARCH_URL = '/Search'
+export const REGISTRATION ='/Registration'
+export const FAVORITE_URL ='/Favorite'
+export const TOURMOUNT_URL = ':id'
+export const TOURCASTLE_URL = ':id'
+export const TOURSOFFROAD_URL = ':id'
+export const TOUREXCLUSIVE_URL = ":id"
+export const BLOGPAGE_URL = ":id"
+
+export const ECOTOURS_URL = "/EcoTours"
+export const TOURECO_URL = ":id"

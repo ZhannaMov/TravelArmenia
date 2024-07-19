@@ -1,0 +1,19 @@
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    background-color: #34495E;
+  } 
+ 
+  .footer a {
+    color: white;
+    text-decoration: none; 
+    margin-left: 0px;
+    text-align: start;
+
+}
+.footer p{
+  color: white;
+}

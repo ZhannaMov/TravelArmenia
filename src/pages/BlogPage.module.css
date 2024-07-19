@@ -1,0 +1,42 @@
+.blogPageCont{
+    width: 100%;
+    height: auto;
+    overflow: auto;
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap:20px;
+}
+
+
+.blogPageName{
+    font-size: 40px;
+}
+
+.blogPageP{
+    width: 80%;
+    height: 200px;
+    /*border: 1px solid red;*/
+}
+
+.blogH1{
+    font-size: 30px;
+    color:#616A6B;
+    margin-left: 6px;
+}
+
+.blogImg{
+    width: 400px;
+    height: 350px;
+}
+
+.blogText{
+    width: 80%;
+    margin-bottom: 15px;
+}
+
+.blogItemCont{
+    /*border: 1px solid blue;*/
+    padding-left: 5px;
+}

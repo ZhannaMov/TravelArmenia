@@ -1,0 +1,72 @@
+
+.favContainer{
+    width: 100%;
+    height:auto;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px;
+    position: relative;
+}
+
+.savedH{
+    font-size: 30px;
+    color:#616A6B;
+    position: absolute;
+    left: 40%;
+    margin-bottom:40px;
+    
+    z-index: 9;
+
+}
+
+.favMessage{
+    width: 80%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 180px;
+  
+}
+.contLinkandText{
+    display: flex;
+}
+
+.linkCont{
+    display: flex;
+    width: 20%;
+    /* border: 1px red solid; */
+    justify-self: center;
+    align-items: center;
+}
+.linkBtn{
+    width: 45%;
+    height: 30px;
+     margin: 2px;
+     color: #7FB3D5;
+     font-weight: bold;
+     border-radius: 20px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: #EBF5FB;
+     box-shadow: 0 0 2px rgba(35, 106, 147, 0.4);
+    font-size: 12px;
+}
+.goToHome{
+    width: 80%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 60px;
+   display: flex;
+align-items: center;
+background-color: #EBEDEF;
+font-weight: 300;
+}
+.wishlistFav{
+
+    position: relative;
+    top: 55px;
+}
+

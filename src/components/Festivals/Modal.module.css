@@ -1,0 +1,35 @@
+.modalFestival{
+    width: 400px;
+    height: 500px;
+    /* border: 1px solid black; */
+    z-index: 9;
+    position: absolute;
+    background-color: white;
+    left: 40%;
+    border-radius: 2px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.4);
+    
+}
+
+.modalName{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.471;
+    text-transform: capitalize;
+    color: #57585b;
+    margin: 10px;
+}
+.modalInfo{
+    max-height: 300px;
+    overflow: scroll;
+}
+.modalBtn{
+    position: absolute;
+    right: 1px;
+    top:2px;
+    width: 30px;
+    height: 30px;
+    color: gray;
+    background-color:white;
+    border-radius: 1px;
+}

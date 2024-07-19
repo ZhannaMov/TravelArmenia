@@ -1,0 +1,62 @@
+.container{
+    font-family: 'Noto Sans Armenian', sans-serif;
+    color: #6c757d;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #EAEDED ;
+    border-radius: 5px;
+    height: 500px;
+
+}
+
+.booking {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.head{
+    text-align: center;
+    margin: 40px;
+}
+
+.column {
+    flex: 1;
+    margin-right: 20px; 
+}
+
+.note {
+    flex-basis: 100%; 
+    margin-top: 5px; 
+    border-color: gray;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+
+}
+
+.book {
+    width: 75px;
+    padding: 10px;
+    margin-top: 10px; 
+    border-radius: 5px;
+    background-color: #616A6B;
+    border-style: none;
+    color: white;
+    font-size: 17px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+}
+.book:hover{
+    opacity: 0.9;
+}
